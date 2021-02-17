@@ -1,0 +1,224 @@
+@font-face {
+  src: url(fonts/Addis.ttf);
+  font-family: Addis;
+}
+
+@media (min-width: 500px) {
+  .container-1 {
+    display: flex;
+  }
+}
+.container-1 div {
+  border: 1px #ccc solid;
+  padding: 1%;
+}
+.box-1 {
+  flex: 1;
+  order: 1;
+}
+.box-2 {
+  flex: 1;
+  order: 2;
+}
+
+.flex01 {
+  background-color: gainsboro;
+}
+
+body {
+  width: 100%;
+  padding: auto;
+  padding-top: 2%;
+  background-color: Grey;
+}
+.bean {
+   width: 250px;
+   Height: 100px;
+   }
+ img  {
+   vertical-align: top;
+   horizontal-align: center;
+   }
+ body {
+    padding: 15px;
+    }
+p {
+  color: Black;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  #mainheader {
+    background-image:url("bb.jpg");
+    height: fit-content;
+    background-size: cover;
+    text-align: center;
+    padding: 15%;
+    background-repeat: no-repeat;
+    width: auto;
+  }
+  #HOME {
+    font-family: Georgia;
+    color: White;
+    font-size: 70pt;
+    width: auto;
+    text-align: center;
+  }
+}
+
+nav {
+  text-decoration: none;
+  text-align: center;
+  font-family: Impact, "Haettenschweiler", Arial Narrow Bold, sans-serif;
+  font-size: 30pt;
+  color: white;
+}
+#pages ul {
+  list-style-type: none;
+  word-spacing: 10pt;
+}
+#pages li {
+  display: inline;
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-size: 15pt;
+  background-size: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1%;
+}
+.button:hover {
+  color: red;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-size: 15pt;
+  background-size: 100%;
+  background-color: white;
+  padding: 1%;
+}
+.Welcome {
+  color: black;
+  background-color: rgb(255, 254, 254, 0.3);
+  padding: 5%;
+  padding-top: 1%;
+  text-align:Center;
+  padding-bottom: 1%;
+  font-family: "brush script mt", "Times new roman", "georgia" ;
+}
+
+#entry00 {
+  font-family: "brush script MT","dancing script", "georgia",  Impact, "Arial Narrow Bold", Noto-serif;
+  text-align: Center;
+  font-size: 20pt;
+}
+
+#entry1 {
+  color: black;
+  background-color: gainsboro;
+  background-color: gainsboro;
+  color: white;
+  font-family: "Times new roman", "georgia", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  padding: 5%;
+  padding-top: 5%;
+}
+
+#entry01 {
+  font-family: "Times new roman", georgia, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20pt;
+}
+
+#mainbar {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  background-color: brown;
+  padding: 5%;
+}
+#sidebar {
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+  background-color: brown;
+  padding: 5%;
+}
+#entry2 {
+  color: black;
+  background-color: rgb(182, 179, 179);
+  background-color: gainsboro;
+  color: white;
+  font-family: "cambria", Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  padding: 5%;
+  padding-top: 3%;
+}
+
+#entry02 {
+  font-family: cambria, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20pt;
+}
+
+#entry3 {
+  color: black;
+  background-color: rgb(182, 179, 179);
+  background-color: gainsboro;
+  color: white;
+  font-family: "cambria", Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  padding: 5%;
+  padding-top: 4%;
+}
+
+#entry03 {
+  font-family: "cambria", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20pt;
+}
+
+#entry4 {
+  color: black;
+  background-color: rgb(182, 179, 179);
+  background-color: gainsboro;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  padding: 5%;
+  padding-top: 0%;
+}
+
+#entry04 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20pt;
+}
+
+@media (max-width: 500px) {
+  #mainheader {
+    /*background-image: url(fashion1.jpg);background-size: cover; */
+    text-align: center;
+    padding: 1%;
+    /*background-repeat: no-repeat;*/
+    width: auto;
+  }
+  #HOME {
+    font-family: addis;
+    color: #000000;
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+  }
+}
